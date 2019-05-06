@@ -10,6 +10,7 @@ public class Data {
         System.out.println("День");
         int day = in.nextInt();
 
+
         if (month == 1 || month == 3 || month == 5 || month == 7
                 || month == 8 || month == 10) {
             if (!(1 > day) && !(day > 30)) {
