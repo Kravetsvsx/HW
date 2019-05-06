@@ -14,6 +14,7 @@ public class Home {
         System.out.println("Введите ширину ворого дома");
         int d = in.nextInt();
 
+
         if (e*f >= a*b + c*d)
             System.out.println("Домв помещаются");
         else
